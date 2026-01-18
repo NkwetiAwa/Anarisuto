@@ -28,7 +28,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 
-# Recommended: add your Gemini key
+# Recommended: add your Gemini key for accurate mapping
 # export GEMINI_API_KEY=...
 
 uvicorn app.main:app --reload --port 8000
@@ -84,3 +84,4 @@ The system is designed to be easily extensible by adding additional intents, pat
 
 Demo Video
 [https://youtu.be/rCguybg_PB8](https://youtu.be/rCguybg_PB8)
+
